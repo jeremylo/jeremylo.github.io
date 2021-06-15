@@ -15,11 +15,6 @@
     <header class="page-header" role="banner">
         <h1 class="project-name"><a href="/" style="color: #fff;">{{ site.title | default: site.github.repository_name
                 }}</a></h1>
-        <h2 class="project-tagline">
-            {{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-        <a href="/about" class="btn">About us</a>
     </header>
 
     <main id="content" class="main-content" role="main">
@@ -27,10 +22,7 @@
 
         <footer class="site-footer">
             <span class="site-footer-owner">
-                <a
-                    href="https://github.com/UCL-COMP0016-2020-Team-39/UCL-COMP0016-2020-Team-39.github.io">UCL-COMP0016-2020-Team-39.github.io</a>
-                is maintained by <a
-                    href="https://github.com/UCL-COMP0016-2020-Team-39">UCL-COMP0016-2020-Team-39</a>.</span>
+                &copy; {{ '2021' | date: "%Y" }} <a href="https://jezz.me/">Jeremy Lo Ying Ping</a></span>
         </footer>
     </main>
 </body>
