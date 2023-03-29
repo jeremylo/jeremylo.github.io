@@ -12,8 +12,8 @@ import styles from './index.module.scss';
 export default function Home() {
   return (
     <Layout
-      title={`Hello`}
-      description="Description will go into a meta tag in <head />">
+      title="Hello"
+      description="I'm Jeremy, a final-year computer science student at UCL.">
       <div className={styles.hero}>
         <div className={classNames("container", styles.heroContainer)} style={{ maxWidth: "720px" }}>
           <Terminal title="jezz@ubuntu-lts: ~" greenLink="https://doxaai.com/user/jezz">
