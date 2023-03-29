@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <Layout
       title="Hello"
-      description="I'm Jeremy, a final-year computer science student at UCL.">
+      description="Hello, world! I'm Jeremy, a computer science, linguistics & music lover, & northerner down south passionate about AI for social & environmental good. 🌱">
       <div className={styles.hero}>
         <div className={classNames("container", styles.heroContainer)} style={{ maxWidth: "720px" }}>
           <Terminal title="jezz@ubuntu-lts: ~" greenLink="https://doxaai.com/user/jezz">
