@@ -1,0 +1,76 @@
+@import "src/styles/variables";
+
+.terminal {
+  border: 2px solid #1f2937;
+  border-radius: 0.375rem;
+  overflow: hidden;
+  box-shadow: 0 0 #0000, 0 0 #0000, 3px 3px #1F2937;
+  background-image: var(--jezz-bg-gradient);
+  font-family: $font-mono;
+
+  margin: 0 3px 3px 0;
+}
+
+.titleBar {
+  display: flow-root;
+  padding: 0.4rem 1.2rem;
+  font-weight: 700;
+  background-image: var(--jezz-bg-gradient);
+
+  &.notCollapsed {
+    border-bottom: 2px solid #1f2937;
+  }
+}
+
+.windowButton {
+  float: right;
+  border-radius: 9999px;
+  height: 1rem;
+  width: 1rem;
+  margin: 0.25rem 0 0.25rem 0.25rem;
+
+  border: 2px solid #1f2937;
+  box-shadow: 0 0 #0000, 0 0 #0000, 2px 2px #1F2937;
+
+  cursor: pointer;
+}
+
+.redButton {
+  background-color: rgb(248, 113, 113);
+
+  &:hover {
+    background-color: rgb(239, 68, 68);
+  }
+
+  &:active {
+    background-color: rgb(220, 38, 38);
+  }
+}
+
+.yellowButton {
+  background-color: rgb(251, 191, 36);
+
+  &:hover {
+    background-color: rgb(245, 158, 11);
+  }
+
+  &:active {
+    background-color: rgb(217, 119, 6);
+  }
+}
+
+.greenButton {
+  background-color: rgb(52, 211, 153);
+
+  &:hover {
+    background-color: rgb(16, 185, 129);
+  }
+
+  &:active {
+    background-color: rgb(5, 150, 105);
+  }
+}
+
+.terminalContent {
+  padding: 0.8rem 1.2rem;
+}

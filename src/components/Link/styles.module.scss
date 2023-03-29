@@ -1,0 +1,9 @@
+.link {
+    text-decoration: underline;
+    text-underline-offset: 0.125rem;
+    color: inherit;
+
+    &:hover {
+        color: inherit;
+    }
+}
