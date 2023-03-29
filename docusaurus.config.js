@@ -22,6 +22,8 @@ const config = {
   projectName: 'jeremylo.github.io', // Usually your repo name.
   deploymentBranch: 'production',
 
+  trailingSlash: false,
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
