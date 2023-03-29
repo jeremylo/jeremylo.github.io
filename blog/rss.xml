@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Jeremy Lo Ying Ping Blog</title>
+        <link>https://jezz.me/blog</link>
+        <description>Jeremy Lo Ying Ping Blog</description>
+        <lastBuildDate>Wed, 29 Mar 2023 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[Hello, world!]]></title>
+            <link>https://jezz.me/blog/hello</link>
+            <guid>https://jezz.me/blog/hello</guid>
+            <pubDate>Wed, 29 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hello, world!]]></description>
+            <content:encoded><![CDATA[<p>Hello, world!</p><p>I will most probably end up writing something here, but in the meantime, my master's dissertation awaits...</p><p>Check out the <a href="https://open.spotify.com/playlist/3KdjXhtZUBunjzWpCNjPtk?si=2e65d028945247b7" target="_blank" rel="noopener noreferrer">DOXATHON 2023 playlist</a> while you wait for some groovy tunes. 🎶</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

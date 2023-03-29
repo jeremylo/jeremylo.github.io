@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjeremy_lo_ying_ping=self.webpackChunkjeremy_lo_ying_ping||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Hello, world!","permalink":"/blog/hello"}]}')}}]);
