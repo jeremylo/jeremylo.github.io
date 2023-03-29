@@ -93,7 +93,7 @@ const config = {
               },
               {
                 label: '🌍 Climate Hack.AI',
-                href: 'https://doxaai.com/',
+                href: 'https://climatehack.ai/',
               },
               {
                 label: '🤖 UCL AI Society',
