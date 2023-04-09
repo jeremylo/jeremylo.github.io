@@ -127,7 +127,7 @@ const config = {
               },
               {
                 label: '🎸 Funky Grooves',
-                href: 'https://www.youtube.com/watch?v=le0BLAEO93g',
+                href: 'https://youtu.be/rv4wf7bzfFE?t=138',
               },
               {
                 label: '🐍 The Zen of Python',
