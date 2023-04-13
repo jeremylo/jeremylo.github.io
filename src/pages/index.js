@@ -38,7 +38,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <main>
+      <main className={styles.main}>
         <div className="container">
           <div className={styles.grid}>
             <div className={styles.gridWide}>
@@ -48,7 +48,7 @@ export default function Home() {
                   I'm an MEng <strong>computer science student</strong> at <strong>UCL</strong>, where I lead a software engineering <Link href="https://www.linkedin.com/feed/update/urn:li:activity:7042483443170992128/">team</Link> as Head of Development of the <Link href="https://uclaisociety.co.uk/">UCL Artificial Intelligence Society</Link>.
                 </p>
                 <p>
-                  I've previously been a summer 2022 <strong>Production Engineering Intern</strong> at <strong>Meta</strong> (Facebook) within the service degradation & disaster recovery teams. <FontAwesomeIcon icon={faFacebook} /> <FontAwesomeIcon icon={faInstagram} /> <FontAwesomeIcon icon={faWhatsapp} />
+                  I've previously been a summer 2022 <strong>Production Engineering Intern</strong> at <strong>Meta</strong> (Facebook) within the service degradation & disaster recovery team. <FontAwesomeIcon icon={faFacebook} /> <FontAwesomeIcon icon={faInstagram} /> <FontAwesomeIcon icon={faWhatsapp} />
                 </p>
                 <p>
                   I love <strong>machine learning</strong> (particularly <strong>reinforcement learning</strong> 🤖) and developing <strong>scalable software systems</strong> with Python 🐍, Rust 🦀, JavaScript ☕ (mainly React.js & Next.js ⚛) and Sass 🕶, complemented by healthy volumes of gRPC calls 📞 and Apache Pulsar messages 📧.

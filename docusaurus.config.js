@@ -119,7 +119,7 @@ const config = {
             ],
           },
           {
-            title: 'Fun links',
+            title: 'Fun things I like online 😎',
             items: [
               {
                 label: '🚆 Carto Metro',

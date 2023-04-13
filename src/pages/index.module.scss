@@ -84,3 +84,7 @@
 
   flex: 1;
 }
+
+.main {
+  background: repeating-linear-gradient(135deg, var(--jezz-home-stripe-color), var(--jezz-home-stripe-color) 50px, var(--ifm-background-color) 50px, var(--ifm-background-color) 100px)
+}
