@@ -1,3 +1,5 @@
+@use 'sass:color';
+
 .buttons {
   display: flex;
   align-items: center;
@@ -44,11 +46,11 @@
     text-decoration: none;
 
     &:hover {
-      background: linear-gradient(170deg, darken(#fffbeb, 8%), darken(#fffbeb, 16%));
+      background: linear-gradient(170deg, color.adjust(#fffbeb, $lightness: -8%), color.adjust(#fffbeb, $lightness: -16%));
     }
 
     &:active {
-      background: linear-gradient(170deg, darken(#fffbeb, 16%), darken(#fffbeb, 24%));
+      background: linear-gradient(170deg, color.adjust(#fffbeb, $lightness: -16%), color.adjust(#fffbeb, $lightness: -24%));
     }
   }
 }

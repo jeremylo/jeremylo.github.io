@@ -1,4 +1,4 @@
-@import "src/styles/variables";
+@use "/src/styles/theme";
 
 .terminal {
   border: 2px solid #1f2937;
@@ -6,7 +6,7 @@
   overflow: hidden;
   box-shadow: 0 0 #0000, 0 0 #0000, 3px 3px #1F2937;
   background-image: var(--jezz-bg-gradient);
-  font-family: $font-mono;
+  font-family: theme.$font-mono;
 
   margin: 0 3px 3px 0;
 }
