@@ -72,7 +72,7 @@ const config = {
           src: "img/jeremy_lo_ying_ping.jpg",
         },
         items: [
-          { to: "/blog", label: "Blog", position: "left" },
+          // { to: "/blog", label: "Blog", position: "left" },
           // {
           //   type: 'docSidebar',
           //   sidebarId: 'docsSidebar',
@@ -90,7 +90,7 @@ const config = {
         style: "dark",
         links: [
           {
-            title: "Associations",
+            title: "Associations 🔗",
             items: [
               {
                 label: "💻 DOXA AI",
@@ -107,7 +107,7 @@ const config = {
             ],
           },
           {
-            title: "Get in touch",
+            title: "Get in touch 📧",
             items: [
               {
                 label: "Email",
@@ -118,8 +118,8 @@ const config = {
                 href: "https://www.linkedin.com/in/jeremyloyingping/",
               },
               {
-                label: "Discord",
-                href: "https://discord.gg/MUvbQ3UYcf",
+                label: "GitHub",
+                href: "https://github.com/jeremylo",
               },
             ],
           },
@@ -141,7 +141,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Jeremy Lo Ying Ping`,
+        copyright: `Copyright © 2014&ndash;${new Date().getFullYear().toString().substring(2)} Jeremy Lo Ying Ping`,
       },
       prism: {
         theme: themes.github,

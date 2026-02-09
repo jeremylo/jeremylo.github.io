@@ -40,10 +40,9 @@ export default function Home() {
               <strong>AI for social & environmental good</strong>. 🌱
             </p>
             <p>
-              {/* the co-founder & CEO of */}I lead{" "}
-              <Link href="https://doxaai.com/">DOXA AI</Link>: a start-up
-              hosting <strong>engaging AI competitions</strong> as a service and
-              working to build an{" "}
+              I lead <Link href="https://doxaai.com/">DOXA AI</Link>: a start-up
+              hosting <strong>engaging AI competitions</strong> and working to
+              build an{" "}
               <strong>international community of ML enthusiasts</strong>. 🌍
             </p>
             $&nbsp;█
@@ -58,9 +57,12 @@ export default function Home() {
             <a href="https://github.com/jeremylo">
               <FontAwesomeIcon icon={faGithub} />
             </a>
-            <a href="https://discord.gg/MUvbQ3UYcf">
+            <a href="https://discord.gg/HTTQ8AFjJp">
               <FontAwesomeIcon icon={faDiscord} />
             </a>
+            {/* <a href="https://discord.gg/MUvbQ3UYcf">
+              <FontAwesomeIcon icon={faDiscord} />
+            </a> */}
             <a href="https://climatehack.ai">
               <FontAwesomeIcon icon={faEarthAfrica} />
             </a>
@@ -75,59 +77,98 @@ export default function Home() {
                 title="About me 😎"
                 greenLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
               >
-                {/* I recently completed an MEng in computer science student at UCL */}
                 <p>
-                  I'm an MEng <strong>computer science student</strong> at{" "}
-                  <strong>UCL</strong>, where I lead a software engineering{" "}
+                  In June 2023, I{" "}
+                  <strong>
+                    co-founded <Link href="https://doxaai.com/">DOXA AI</Link>
+                  </strong>{" "}
+                  and became the <strong>Lead Organiser</strong> of{" "}
+                  <Link href="https://climatehack.ai/">ClimateHack.AI</Link>. 🌍
+                </p>
+
+                <p>
+                  I was previously an{" "}
+                  <strong>MEng computer science student</strong> at{" "}
+                  <strong>UCL</strong>, where I led a{" "}
                   <Link href="https://www.linkedin.com/feed/update/urn:li:activity:7042483443170992128/">
-                    team
+                    software engineering team
                   </Link>{" "}
-                  as Head of Development of the{" "}
-                  <Link href="https://uclaisociety.co.uk/">
-                    UCL Artificial Intelligence Society
-                  </Link>
-                  .
+                  as Head of Development at the{" "}
+                  <Link href="https://uclaisociety.co.uk/">UCL AI Society</Link>
+                  . My Master&apos;s project studied the{" "}
+                  <em>evolution of cooperation</em> in societies of artificial
+                  reinforcement learning agents. 🤖
                 </p>
                 <p>
-                  I've previously been a summer 2022{" "}
+                  I've also been a{" "}
                   <strong>Production Engineering Intern</strong> at{" "}
-                  <strong>Meta</strong> (Facebook) within the service
-                  degradation & disaster recovery team.{" "}
+                  <strong>Meta</strong> (Facebook) on the service degradation &
+                  disaster recovery team in London during the summer of 2022.{" "}
                   <FontAwesomeIcon icon={faFacebook} />{" "}
                   <FontAwesomeIcon icon={faInstagram} />{" "}
                   <FontAwesomeIcon icon={faWhatsapp} />
                 </p>
                 <p>
-                  I love <strong>machine learning</strong> (particularly{" "}
-                  <strong>reinforcement learning</strong> 🤖) and developing{" "}
+                  I love <strong>machine learning</strong> and developing{" "}
                   <strong>scalable software systems</strong> with Python 🐍,
-                  Rust 🦀, JavaScript ☕ (mainly React.js & Next.js ⚛) and Sass
-                  🕶, complemented by healthy volumes of gRPC calls 📞 and
-                  Apache Pulsar messages 📧.
+                  Rust 🦀, TypeScript ☕ (with React.js & Next.js ⚛) and other
+                  technologies. 🚀
                 </p>
               </Terminal>
+
               <Terminal
-                title="Climate Hack.AI 2022 🌍"
+                title="ClimateHack.AI 2022&ndash;24 🌍"
                 greenLink="https://climatehack.ai/"
               >
                 <p>
-                  In early 2022, <Link href="https://doxaai.com/">DOXA</Link>{" "}
-                  evaluated <strong>2,230+ machine learning models</strong>{" "}
-                  submitted by students at <strong>25 universities</strong>{" "}
-                  across the UK, US and Canada for{" "}
-                  <Link href="https://climatehack.ai/">Climate Hack.AI</Link>,
-                  an international datathon focused on{" "}
-                  <strong>satellite imagery nowcasting</strong>. ⛅
+                  First launched in January 2022,{" "}
+                  <Link href="https://climatehack.ai/">ClimateHack.AI</Link> is
+                  an{" "}
+                  <strong>
+                    international initiative challenging students to help reduce
+                    UK carbon emissions
+                  </strong>{" "}
+                  by 200+ kilotonnes per year by contributing to advancing{" "}
+                  <strong>
+                    satellite imagery & solar power nowcasting research
+                  </strong>
+                  . ⛅
                 </p>
+
                 <p>
-                  I've shared my thoughts about what it was like to help run the
-                  competition on{" "}
+                  Over two challenges, the{" "}
+                  <Link href="https://doxaai.com/">DOXA AI</Link> platform has
+                  evaluated <strong>6,100+ AI model submissions</strong> from{" "}
+                  <strong>460+ students</strong> at{" "}
+                  <strong>26+ UK, US & Canadian universities</strong> competing
+                  to attend{" "}
+                  <strong>in-person finals at Harvard University & UCL</strong>{" "}
+                  and be awarded a share of a <strong>£70k prize pool</strong>.
+                  🏆
+                </p>
+
+                <p>
+                  Challenge machine learning tasks have featured{" "}
+                  <strong>700+ GiB of data</strong>, including{" "}
+                  <strong>12 channels of satellite imagery</strong>,{" "}
+                  <strong>numerical weather predictions</strong> and{" "}
+                  <strong>air quality data</strong>. 🛰️
+                </p>
+
+                <p>
+                  I've shared my thoughts on what it was like to help run the
+                  2022 competition on{" "}
                   <Link href="https://www.linkedin.com/feed/update/urn:li:activity:6914592814609633280/">
                     LinkedIn
+                  </Link>{" "}
+                  and the 2023&ndash;24 competition on the{" "}
+                  <Link href="https://blog.doxaai.com/2024/04/06/climatehack-ai-2023-finals">
+                    DOXA AI blog
                   </Link>
-                  . Stay tuned for the next iteration autumn 2023! 👀
+                  ! 👀
                 </p>
               </Terminal>
+
               <Terminal
                 title="IBM UCL FISE v2 2021 💻"
                 greenLink="http://students.cs.ucl.ac.uk/2020/group39/"
@@ -198,8 +239,7 @@ export default function Home() {
                   On 12th April 2022, I gave a talk to the{" "}
                   <strong>SKAO&ndash;JBCA ML Club</strong> at the University of
                   Manchester on{" "}
-                  <Link href="https://climatehack.ai/">Climate Hack.AI</Link>.
-                  💬
+                  <Link href="https://climatehack.ai/">ClimateHack.AI</Link>. 💬
                 </p>
                 <p>
                   Check out the{" "}
