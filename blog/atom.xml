@@ -13,7 +13,9 @@
         <link href="https://jezz.me/blog/hello"/>
         <updated>2023-03-29T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hello, world!]]></summary>
-        <content type="html"><![CDATA[<p>Hello, world!</p><p>I will most probably end up writing something here, but in the meantime, my master's dissertation awaits...</p><p>Check out the <a href="https://open.spotify.com/playlist/3KdjXhtZUBunjzWpCNjPtk?si=2e65d028945247b7" target="_blank" rel="noopener noreferrer">DOXATHON 2023 playlist</a> while you wait for some groovy tunes. 🎶</p>]]></content>
+        <content type="html"><![CDATA[<p>Hello, world!</p>
+<p>I will most probably end up writing something here, but in the meantime, my master's dissertation awaits...</p>
+<p>Check out the <a href="https://open.spotify.com/playlist/3KdjXhtZUBunjzWpCNjPtk?si=2e65d028945247b7" target="_blank" rel="noopener noreferrer" class="">DOXATHON 2023 playlist</a> while you wait for some groovy tunes. 🎶</p>]]></content>
         <author>
             <name>Jeremy Lo Ying Ping</name>
             <uri>https://jezz.me</uri>

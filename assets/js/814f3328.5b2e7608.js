@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkjeremy_lo_ying_ping=globalThis.webpackChunkjeremy_lo_ying_ping||[]).push([[472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Hello, world!","permalink":"/blog/hello","unlisted":false,"date":"2023-03-29T00:00:00.000Z"}]}')}}]);
